@@ -1,0 +1,131 @@
+/* resetando-estilos-navegador*/
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ .logo img{
+  width: 54px;
+  height: 53px;
+  border: none;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.nav-container{
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #e4e6e7;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.navbar{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  width: 100%;
+}
+.navbar a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: #3B4B5B;
+  font-family: lato;
+  border: 2px solid transparent;
+}
+.navbar a:hover{
+  color: #C93B59;
+  transition: 1s;
+}
+
+.content-route{
+  width: 100%;
+  position: fixed;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  padding-top: 69px;
+  
+  
+}
+.wrapper{
+  overflow-y: unset;
+  flex-grow: 1;
+  padding-top: 0;
+  -webkit-animation: fadeIn .5s ease;
+  animation: fadeIn .5s ease;
+  position: relative;
+}
+
+
+
+.header-container{
+  display: flex;
+  background: #e4e6e7;
+  justify-self: start;
+  align-items: center;
+  padding-left: 50px;
+  justify-content: space-between;
+  min-height: 80vh;
+}
+.subititle-header{
+  font-size: 72px;
+  width: 670px;
+  height: 172px;
+  color: #242728;
+  font-family: Lato;
+  
+}
+.containerSearch{
+  display: flex;
+  align-items: center;
+  
+}
+.inputSearch{
+width: 212px;
+padding-left: 10px;
+
+}
+.inputSearch, .searchVacancy{
+  background: #f2f3f3;
+  outline-style: none;
+  border: none;
+  
+}
+
+.searchVacancy{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 266px;
+  height: 42px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.contenticon{
+  border-radius: 5px;
+  margin-left: 35px;
+  background-color: #f2f3f3;
+  cursor: pointer;
+}
+svg{
+overflow: hidden;
+vertical-align: middle;
+}
+img{
+  vertical-align: middle;
+  border-style: none;
+  width: 500px;
+  height: 500px;
+  
+
+}
